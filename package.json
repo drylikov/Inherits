@@ -1,0 +1,37 @@
+{
+  "name": "inherits",
+  "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+  "version": "2.0.4",
+  "keywords": [
+    "inheritance",
+    "class",
+    "klass",
+    "oop",
+    "object-oriented",
+    "inherits",
+    "browser",
+    "browserify"
+  ],
+  "main": "./inherits.js",
+  "browser": "./inherits_browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/inherits.git"
+  },
+  "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacs/inherits/issues"
+  },
+  "homepage": "https://github.com/isaacs/inherits#readme",
+  "scripts": {
+    "test": "tap"
+  },
+  "devDependencies": {
+    "tap": "^15.1.6"
+  },
+  "files": [
+    "inherits.js",
+    "inherits_browser.js"
+  ]
+}
